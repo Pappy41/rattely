@@ -1499,13 +1499,35 @@ label:focus,
   font-weight: bold;
 }
 
+@media (max-width: 576px) {
+  .policyHeader{
+    font-size: 24px;
+  }
+}
+
 .policyText{
   font-family: myroman;
   font-size: 18px;
+  max-width: 75%;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .policyText{
+    max-width: 100%;
+    font-size: 14px;
+  }
 }
 
 .statementHeader{
   font-family: myroman;
   font-size: 14px;
   font-weight: bold;
+  color: #000000;
+}
+
+.statementText{
+  font-family: myroman;
+  font-size: 14px;
+
 }
