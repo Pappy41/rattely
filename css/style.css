@@ -1451,3 +1451,61 @@
   text-decoration: none;
 }
 
+/* Contact Us */
+.contactHeader{
+  font-size: 36px;
+  font-family: myroman;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.contactText{
+  font-size: 18px;
+  font-family: myroman;
+  font-weight: 500;
+  color: #000000;
+  max-width: 75%;
+}
+
+@media (max-width: 576px) {
+  .contactText {
+    max-width: 100%;
+  }
+}
+
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active{
+  outline:0px !important;
+  -webkit-appearance:none !important;
+  box-shadow: none !important;
+}
+
+/* Policy */
+.policyHeader{
+  font-family: myroman;
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.policyText{
+  font-family: myroman;
+  font-size: 18px;
+}
+
+.statementHeader{
+  font-family: myroman;
+  font-size: 14px;
+  font-weight: bold;
+}
